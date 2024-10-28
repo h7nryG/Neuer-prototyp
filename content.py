@@ -1,11 +1,8 @@
 abs1 = '''EIN SCHATTEN ERWACHT 
 "Argh! Mein Kopf... dieses Licht ... ist das der Tod?"
-Dein Geist ist verwirrt und es fällt dir schwer, dich zu erheben. Nur verschwommen erkennst du einen spärlich 
-erleuchteten Raum. Das geheiligte Symbol der Göttin Kar ist allgegenwärtig.Überall erblickst du die achtflammige Sonne:
-geschnitzt ins Holz des Betthimmels, gewoben in die Seide der Wandteppiche und gegossen in Gold der Kunstwerke.
-Du bist im großzügig ausgestatteten Schlafgemach eines Sonnenpriesters. Draußen tobt ein heftiges Unwetter. Schwerer Regen peitscht gegen das Bleiglas und für einen Augenblick wird das Zimmer in grelles Weiß getaucht. Da kracht das Fenster zurück. Die Kerzen des Kandelabers auf dem Nachttisch verlöschen.
+Dein Geist ist verwirrt und es fällt dir schwer, dich zu erheben. Nur verschwommen erkennst du einen spärlich erleuchteten Raum. Das geheiligte Symbol der Göttin Kar ist allgegenwärtig. Überall erblickst du die achtflammige Sonne: geschnitzt ins Holz des Betthimmels, gewoben in die Seide der Wandteppiche und gegossen in Gold der Kunstwerke. Du bist im großzügig ausgestatteten Schlafgemach eines Sonnenpriesters. Draußen tobt ein heftiges Unwetter. Schwerer Regen peitscht gegen das Bleiglas und für einen Augenblick wird das Zimmer in grelles Weiß getaucht. Da kracht das Fenster zurück. Die Kerzen des Kandelabers auf dem Nachttisch verlöschen.
 "Da ist jemand ... ein Schatten!"
-Du schnellst herum. Niemand. Dein Herz rast. Unerwartet stürzt du über etwas auf dem Boden und erblickst den alten Körper eines Menschen, gehüllt in die ausladende, gold gelbe Schlafkutte eines Kar-Priesters. Seine wirren, aschgrauen Haare auf dem Hinterkopf sind von Blut durchtränkt. Er regt sich nicht.
+Du schnellst herum. Niemand. Dein Herz rast. Unerwartet stürzt du über etwas auf dem Boden und erblickst den alten Körper eines Menschen, gehüllt in die ausladende, goldgelbe Schlafkutte eines Kar-Priesters. Seine wirren, aschgrauen Haare auf dem Hinterkopf sind von Blut durchtränkt. Er regt sich nicht.
 "Ist er etwa tot!?"
 Ähnlich den Gewitterblitzen draußen zucken dir Gedanken durch den Kopf: Du hast weder eine Ahnung, wo du dich befindest, wer vor dir liegt, noch ...
 "Wer bin ICH?"
@@ -13,11 +10,30 @@ Nur zögerlich und mit einer düsteren Vorahnung wandert dein Blick über das du
 "Oh, nein ... Was habe ich getan?"
 Du willst nur fort von diesem Ort, fort von dieser Tat, als Schrittgeräusche an dein Ohr dringen.'''
 
+abs3 = '''Nur wenige Schritte zum Tempel. Ein kurzer, gehetzter Blick nach hinten: niemand. Doch du hörst, dass etliche Soldaten über die verschlungenen Kieswege auf dich zukommen. Das Netz der Verfolger wird enger.
+Du drückst dich in den Schatten der Wand, da lähmt ein stechender Schmerz deinen linken Oberschenkel! Voller Pein schreist du auf und fällst vornüber.
+"Erwischt!", vermeldet eine Männerstimme triumphierend. Zähnefletschend presst du die Wunde ab. Blut quillt über deine Klauen und du ertastest, dass der Bolzen tief im Fleisch steckt. Zu tief, um ihn auf die Schnelle herauszuziehen. Die Verfolger haben dich fast erreicht.'''
+
+abs7 = '''Du besiegst deine Angst, krallst deine blanken Füße in den Stein des Fenstersimses und springst gegen den Wind in die Dunkelheit, den Landepunkt am Baumstamm fest im Blick.'''
+
+abs10 = '''Ohne Mühe befreist du die enge Öffnung von Gestrüpp und Unkraut und du erkennst, dass ein Eisengitter den Schacht versperrt. Aber du bist zu weit gekommen, um aufzugeben! Mit letzter Kraft reißt du das verrostete Gitter aus der Verankerung und blickst erschöpft in die Dunkelheit.
+Außer einem muffigen, erdigen Geruch nimmst du nichts wahr. Trotzdem kriechst du hinein, und schlängelst dich geschmeidig wie eine Vintaqnatter voran. Nach einigen Armzügen ertastest du schließlich eine Mauerkante. Bedacht lässt du dich herab und kannst wieder aufrecht stehen. Du bist blind ob der absoluten Schwärze.'''
+
 abs11 = '''Unter deinen Füßen knirscht der Kies, doch das Tosen von Wind und Regen verschluckt dieses verräterische Geräusch. Mit langen Schritten hältst du auf den Torbogen zu, musst zuvor jedoch am Kar-Tempel vorbei, der auf halbem Weg im Zentrum des Lustgartens steht.
-Mittlerweile haben die Wachleute ihre Suche auf den Park ausgeweitet. Du hörst das bedrohliche Klacken von Armbrustwinden.'''
+Mittlerweile haben die Wachleute ihre Suche auf den Park ausgeweitet. Du hörst das bedrohliche Klacken von Armbrustwinden.
+
+Führst du eine Öllaterne mit dir, lies weiter bei 56.
+Ohne diesen Gegenstand lies weiter bei 60.'''
 
 abs13 = '''Obwohl nur vereinzelt Lichtstrahlen durch die schmalen Fugen der Steinplatte sowie den langen Luftschacht in dein Versteck fallen, kannst du doch erahnen, wie unbeugsam die Morgensonne an diesem Tage scheint. Der Gedanke daran lässt dich unwillkürlich erschaudern.
 Trotz des spärlichen Lichts überblickst du die Krypta nun in Ganze, als habe jemand eine blutrote Laterne entzündet: In zehn gemauerten Nischen ruhen acht reich verzierte Steinsärge. Obwohl du nicht imstande bist, sie zu lesen, lassen gemeißelte Symbole darauf schließen, dass Vorfahren der Kar-Priesterschaft in den Sarkophagen liegen. In einer Ecke steht eine wuchtige Holztruhe. Du siehst kein Schloss.'''
+
+abs15 = '''Im letzten Moment rollst du dich in einen der dichten Rosensträucher hinein. Du hast Glück, dass das Gewächs eine Züchtung ohne wehrhafte Dornen ist. Du zwingst dich, den Atem anzuhalten, denn nur wenige Fuß von dir entfernt siehst du an den unteren Ranken vorbei die schweren Lederstiefel zweier Wachmänner der Priesterschaft.
+"Verdammt, der Kerl muss hier doch irgendwo sein", flucht einer der beiden.
+Ohne Vorwarnung stechen sie wahllos mit ihren Breitschwertern in die dicht gewachsene Hecke. Ein Hieb verfehlt deine Brust um Haaresbreite, als unverhofft ein Kratzen und Schaben ertönt. "War da was?, faucht einer der Soldaten.
+"Komm, den schnappen wir uns!"
+Du verharrst wie versteinert, bis die beiden Wachmänner wieder fort sind. Dennoch ist die Gefahr nicht gebannt: Immer mehr Palastbewohner laufen im Park umher.
+Verzweifelt suchst du nach einem Ausweg und entdeckst das massive Steinfundament des Tempels mit einem zugewucherten Schacht, der womöglich in ein Gewölbe unterhalb des geweihten Kar-Hauses führt.'''
 
 abs16 = '''Geräuschlos schlüpfst du durch das über und über mit Schnitzereien verzierte Holzportal des Tempels.
 Dunkelheit empfängt dich, als das schwere Eisenschloss hinter dir wieder zuschnappt. Einzig grelle Blitze erhellen von Zeit zu Zeit den Raum durch die hohen Bleiglasfenster.
@@ -29,7 +45,6 @@ Außerhalb des Tempels entsteht stimmgewaltiges Durcheinander. Deine Verfolger h
 Du atmest auf und blickst dich in aller Ruhe um. Neben der Kirchenorgel, deren längste Pfeifen bis unter die Kuppel reichen, bemerkst du an einer der Säulen, direkt bei der schwarzen Bodenplatte, einen Hebel aus Messing, verziert mit Dutzenden Totenschädeln.'''
 
 abs33 = '''Die ganze Nacht hast du mit einem Bolzen im Oberschenkel verbracht. Zumindest glaubst du das. Als du die Verletzung begutachten willst, bemerkst du, dass an der Stelle, wo er im Fleisch stecken sollte, nichts ist. Das Eisengeschoss liegt unweit von dir entfernt auf dem Boden.'''
-
 abs35 = '''Du rennst um eine weitere Ecke des Flurs, da siehst du draußen einen Schatten durch das Fenster spähen. Erschreckt kommst du ins Stolpern und stürzt vornüber mit einem dumpfen Schlag gegen die Wand. Benommen rappelst du dich wieder auf. Die Gestalt ist verschwunden! Du setzt deine Flucht fort.
 Kurze Zeit später schlägt hinter dir eine Tür zurück. "Halt! Stehen bleiben!", brüllt eine raue Männerstimme in zackigem Befehlston.
 Zugleich vernimmst du das unheilvolle metallische Singen eines Schwertes, das aus seiner Scheide gezogen wird.'''
