@@ -79,6 +79,9 @@ abs71 = '''Mit dem Mute der Verzweiflung springst du kopfüber durch das verschl
 
 abs72 = '''Hastig greifst du nach dem Türriegel aus poliertem Messing. Mit all dem Blut an deinen Klauen rutschst du zunächst etwas ab, doch mit dem zweiten Versuch gelingt es dir, die schwere Holztür zu öffnen. Flackerndes Licht scheint dir entgegen. Geschmeidig, fast katzenartig, drückst du dich durch den schmalen Spalt auf einen langen Gang. Prächtige Rüstungen sowie Porträts in Öl auf der einen und Dutzende Bleiglasfenster auf der anderen Seite flankieren den opulenten Flur.'''
 
+abs77 = '''Kaum hast du dich vom kurzen Kampf gegen den alten Recken erholt, hörst du die schweren Schritte eines weiteren Wachmanns. Aus Furcht, Verstärkung könnte eintreffen, entschließt du dich, aus dem nächsten Erker zu entkommen.
+Geschickt öffnest du ein Fenster zum Innenhof. Die heftige Böe bläst dir die Scheiben scheppernd entgegen und gibt den Blick in die Tiefe frei. Zu hoch für dich! Aber die knorrigen Aste eines in voller Blüte stehenden Raanbaums sind in Sprungweite. Du packst dein Herz in beide Hände und nimmst Anlauf ...'''
+
 abs76 = '''Du drehst dich herum und siehst den fahlen Schein eines Kerzenleuchters. Im letzten Moment versteckst du dich hinter einer großen Bodenvase, als eine Dienerin um die Ecke tritt. Sie schleicht in deine Richtung, verharrt unweit vor dir an der Tür zum kaiserlichen Schlafgemach und presst ihr Ohr gegen das Holz. Zögerlich klopft sie und fragt: "Ist alles in Ordnung, mein Hierarch?"
 Sie zögert. Da lässt ein klirrendes Geräusch sowohl die junge Frau als auch dich zusammenfahren.
 "Mein Hierarch?!"

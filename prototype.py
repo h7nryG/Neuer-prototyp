@@ -2,6 +2,8 @@ import content
 """
 Ein Dictionary, das die einzelnen Abschnitte des Kapitels enthält.
 Jeder Abschnitt enthält:
+Dieses Dictionary soll den Ablauf von dem Ablauf Pfad für den zweiten Prototyp (Schritt 2) sein
+
 - content: den Text des Abschnitts
 - options: die möglichen nächsten Abschnitte
 - text_options: die Textoptionen für den Benutzer
