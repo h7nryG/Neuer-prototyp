@@ -145,16 +145,18 @@ chapter = {
     'abs11': {
         'content': content.abs11,
         'options': {
-            '1': 'content.abs60',
+            '1': 'abs60',
+            '2': 'abs56'
         },
         'text_options': {
-            '1': 'Fliehe zum Tempel'
+            '1': 'Fliehe zum Tempel',
+            '2': 'Fliehe zum Schatten'
         }
     },
     'abs56': {
         'content': content.abs56,  # Hier sollte der Inhalt von Kapitel 56 stehen
         'options': {
-            '1': 'content.abs3',
+            '1': 'abs3',
         },
         'text_options': {
             '1': 'Folge dem Schatten'
@@ -163,7 +165,7 @@ chapter = {
     'abs3': {
         'content': content.abs3,
         'options': {
-            '1': 'content.abs15',
+            '1': 'abs15',
         },
         'text_options': {
             '1': 'Untersuche den Körper'
@@ -172,7 +174,7 @@ chapter = {
     'abs15': {
         'content': content.abs15,
         'options': {
-            '1': 'content.abs10',
+            '1': 'abs10',
         },
         'text_options': {
             '1': 'Öffne die Truhe'
@@ -181,7 +183,7 @@ chapter = {
     'abs10': {
         'content': content.abs10,
         'options': {
-            '1': 'content.abs46',
+            '1': 'abs46',
         },
         'text_options': {
             '1': 'Krieche in die Dunkelheit'
@@ -190,7 +192,7 @@ chapter = {
     'abs46': {
         'content': content.abs46,
         'options': {
-            '1': 'content.abs88',
+            '1': 'abs88',
         },
         'text_options': {
             '1': 'Durchsuche die Krypta'
@@ -199,7 +201,7 @@ chapter = {
     'abs88': {
         'content': content.abs88,  # Hier sollte der Inhalt von Kapitel 88 stehen
         'options': {
-            '1': 'content.abs33',
+            '1': 'abs33',
         },
         'text_options': {
             '1': 'Abschnitt 33'

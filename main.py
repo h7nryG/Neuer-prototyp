@@ -1,132 +1,74 @@
 import prototype_two_one as prototype
+import prototype_two_two as prototype_two
 import textwrap
 import os
 
-def clear_console():
-    if os.name == 'nt':
-        os.system('cls')
-        # os.system('cls') clears the console in windows
-    elif os.name == 'posix':
-        # os.system('clear') clears the console in linux
-        os.system('clear')
+
+def clear_screen():
+    """Clears the console based on the operating system."""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
-
-
-def show_prototype_one_section(section_key):
+def display_section(section_key, prototype_type):
     """
-    This function shows the section of the game
-    :param section_key:
-    :return:
+    Shows the section of the game.
+    :param prototype_type:
+    :param section_key: Key of the section to display.
+    :return: Options for the next section.
     """
-    clear_console()
-    section = prototype.chapter[section_key]
+    clear_screen()
+    section = prototype_type.chapter[section_key]
     wrapped_section = textwrap.fill(section['content'], width=100)
-    # print the number of the section for oversight
     print(f"Abschnitt: {section_key}")
     print(wrapped_section)
     for key, value in section['text_options'].items():
         print(f"{key}: {value}")
     return section['options']
 
-def show_prototype_two_section(section_key):
-    """
-    This function shows the section of the game
-    :param section_key:
-    :return:
-    """
-    clear_console()
-    section = prototype.chapter[section_key]
-    wrapped_section = textwrap.fill(section['content'], width=100)
-    # print the number of the section for oversight
-    print(f"Abschnitt: {section_key}")
-    print(wrapped_section)
-    for key, value in section['text_options'].items():
-        print(f"{key}: {value}")
-    return section['options']
 
-def get_user_input():
-    user_input = input("Wähle deine nächsten Schritte: ")
-    return user_input
+def prompt_user_input():
+    """Gets input from the user."""
+    return input("Wähle deine nächsten Schritte: ")
 
 
-def init_game():
+def start_game(prototype_type):
     """
-    This function initializes the game
-    :return:
+    Initializes the game.
+    :param prototype_type: The type of prototype to use (one or two).
     """
-    # start the game from the first section
     current_section = 'abs1'
-    # show the section
     while True:
-        # show the section
-        options = show_prototype_one_section(current_section)
-        # get the user input
-        user_input = get_user_input()
-        # check if the user input is in the options
+        options = display_section(current_section, prototype_type)
+        user_input = prompt_user_input()
+
         if user_input in options:
-            # set the current section to the user input
             current_section = options[user_input]
-        # check if the user input is q or exit
-        # if the user input is q or exit, then quit the game
-        elif user_input.lower() == 'q' or user_input.lower() == 'exit':
+        elif user_input.lower() in ['q', 'exit']:
             break
         else:
-            # show the error message
-            print("Invalid section number. Please enter a valid section number.")
-
-def init_game_two():
-    """
-    This function initializes the game
-    :return:
-    """
-    # start the game from the first section
-    current_section = 'abs1'
-    # show the section
-    while True:
-        # show the section
-        options = show_prototype_two_section(current_section)
-        # get the user input
-        user_input = get_user_input()
-        # check if the user input is in the options
-        if user_input in options:
-            # set the current section to the user input
-            current_section = options[user_input]
-        # check if the user input is q or exit
-        # if the user input is q or exit, then quit the game
-        elif user_input.lower() == 'q' or user_input.lower() == 'exit':
-            break
-        else:
-            # show the error message
             print("Invalid section number. Please enter a valid section number.")
 
 
-def choose_paths():
-    """
-    This function lets the user choose the path either prototype or the default path
-    :return:
-    """
+def select_game_paths():
+    """Lets the user choose the path either prototype or the default path."""
     print("Willkommen zu unserem Textadventure!")
     print("Für beenden drücke q oder exit")
-    user_choice_path = input("Wähle deinen Pfad: \n1.Individueller Pfad\n2.Standard Pfad\nAuswahl: ")
+    user_choice_path = input("Wähle deinen Pfad: \n1. Individueller Pfad\n2. Standard Pfad\n3. Beenden ('q', 'exit',)\nAuswahl: ")
     if user_choice_path == "1":
-        # start the game
-        init_game()
+        start_game(prototype)
     elif user_choice_path == "2":
-        # start the game
-        init_game_two()
-    elif user_choice_path == "q" or user_choice_path == "exit":
+        start_game(prototype_two)
+    elif user_choice_path.lower() in ['q', 'exit']:
         return
     else:
-        print("Invalid input. Please enter a valid input.")
-        # recursively call the function until the user enters a valid input
-        choose_paths()
+        print("Ungültige Eingabe. Wähle eine gültige Option!")
+        select_game_paths()
 
 
 def main():
     print("\n")
-    choose_paths()
+    select_game_paths()
 
 
 if __name__ == "__main__":
-   main()
+    main()

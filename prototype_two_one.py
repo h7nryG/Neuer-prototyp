@@ -141,7 +141,7 @@ chapter = {
     'abs11': {
         'content': content.abs11,
         'options': {
-            '1': 'abs60'
+            '1': 'abs60',
         },
         'text_options': {
             '1': 'Fliehe zum Tempel'
