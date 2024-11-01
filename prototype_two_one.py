@@ -1,4 +1,4 @@
-import content
+import content_chapters as content
 """
 Ein Dictionary, das die einzelnen Abschnitte des Kapitels enthält.
 Jeder Abschnitt enthält:
@@ -69,14 +69,10 @@ chapter = {
     'abs97': {
         'content': content.abs97,
         'options': {
-            '1': 'abs71',
-            '2': 'abs42',
-            '3': 'abs40',
+            '1': 'abs71'
         },
         'text_options': {
             '1': 'Kapitel 71',
-            '2': 'Kapitel 42',
-            '3': 'Kapitel 40',
         }
     },
     'abs40': {
@@ -139,13 +135,13 @@ chapter = {
             '1': 'abs11'
         },
         'text_options': {
-            '1': 'Fliehe durch den Tempel'
+            '1': 'Fliehe durch den Tempel',
         }
     },
     'abs11': {
         'content': content.abs11,
         'options': {
-            '1': 'abs60',
+            '1': 'abs60'
         },
         'text_options': {
             '1': 'Fliehe zum Tempel'

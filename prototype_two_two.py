@@ -1,7 +1,9 @@
-import content
+import content_chapters as content
 """
 Ein Dictionary, das die einzelnen Abschnitte des Kapitels enthält.
 Jeder Abschnitt enthält:
+Dieses Dictionary soll den Ablauf von dem Ablauf Pfad für den zweiten Prototyp (Schritt 2) sein
+
 - content: den Text des Abschnitts
 - options: die möglichen nächsten Abschnitte
 - text_options: die Textoptionen für den Benutzer
@@ -68,9 +70,13 @@ chapter = {
         'content': content.abs97,
         'options': {
             '1': 'abs71',
+            '2': 'abs42',
+            '3': 'abs40',
         },
         'text_options': {
-            '1': 'Fliehe durch den Tempel',
+            '1': 'Kapitel 71',
+            '2': 'Kapitel 42',
+            '3': 'Kapitel 40',
         }
     },
     'abs40': {
@@ -82,8 +88,35 @@ chapter = {
             '1': 'Verstecke dich'
         }
     },
+    'abs42': {
+        'content': content.abs42,
+        'options': {
+            '1': 'abs77',
+        },
+        'text_options': {
+            '1': 'Kapitel 77'
+        }
+    },
     'abs71': {
         'content': content.abs71,
+        'options': {
+            '1': 'abs90',
+        },
+        'text_options': {
+            '1': 'Untersuche die Verletzung'
+        }
+    },
+    'abs77': {
+        'content': content.abs77,
+        'options': {
+            '1': 'abs7',
+        },
+        'text_options': {
+            '1': 'Untersuche die Verletzung'
+        }
+    },
+    'abs7': {
+        'content': content.abs7,
         'options': {
             '1': 'abs90',
         },
@@ -112,10 +145,64 @@ chapter = {
     'abs11': {
         'content': content.abs11,
         'options': {
-            '1': 'abs60',
+            '1': 'content.abs60',
         },
         'text_options': {
             '1': 'Fliehe zum Tempel'
+        }
+    },
+    'abs56': {
+        'content': content.abs56,  # Hier sollte der Inhalt von Kapitel 56 stehen
+        'options': {
+            '1': 'content.abs3',
+        },
+        'text_options': {
+            '1': 'Folge dem Schatten'
+        }
+    },
+    'abs3': {
+        'content': content.abs3,
+        'options': {
+            '1': 'content.abs15',
+        },
+        'text_options': {
+            '1': 'Untersuche den Körper'
+        }
+    },
+    'abs15': {
+        'content': content.abs15,
+        'options': {
+            '1': 'content.abs10',
+        },
+        'text_options': {
+            '1': 'Öffne die Truhe'
+        }
+    },
+    'abs10': {
+        'content': content.abs10,
+        'options': {
+            '1': 'content.abs46',
+        },
+        'text_options': {
+            '1': 'Krieche in die Dunkelheit'
+        }
+    },
+    'abs46': {
+        'content': content.abs46,
+        'options': {
+            '1': 'content.abs88',
+        },
+        'text_options': {
+            '1': 'Durchsuche die Krypta'
+        }
+    },
+    'abs88': {
+        'content': content.abs88,  # Hier sollte der Inhalt von Kapitel 88 stehen
+        'options': {
+            '1': 'content.abs33',
+        },
+        'text_options': {
+            '1': 'Abschnitt 33'
         }
     },
     'abs60': {

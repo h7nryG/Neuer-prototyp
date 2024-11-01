@@ -2,7 +2,7 @@ abs1 = '''EIN SCHATTEN ERWACHT
 "Argh! Mein Kopf... dieses Licht ... ist das der Tod?"
 Dein Geist ist verwirrt und es fällt dir schwer, dich zu erheben. Nur verschwommen erkennst du einen spärlich erleuchteten Raum. Das geheiligte Symbol der Göttin Kar ist allgegenwärtig. Überall erblickst du die achtflammige Sonne: geschnitzt ins Holz des Betthimmels, gewoben in die Seide der Wandteppiche und gegossen in Gold der Kunstwerke. Du bist im großzügig ausgestatteten Schlafgemach eines Sonnenpriesters. Draußen tobt ein heftiges Unwetter. Schwerer Regen peitscht gegen das Bleiglas und für einen Augenblick wird das Zimmer in grelles Weiß getaucht. Da kracht das Fenster zurück. Die Kerzen des Kandelabers auf dem Nachttisch verlöschen.
 "Da ist jemand ... ein Schatten!"
-Du schnellst herum. Niemand. Dein Herz rast. Unerwartet stürzt du über etwas auf dem Boden und erblickst den alten Körper eines Menschen, gehüllt in die ausladende, goldgelbe Schlafkutte eines Kar-Priesters. Seine wirren, aschgrauen Haare auf dem Hinterkopf sind von Blut durchtränkt. Er regt sich nicht.
+Du schnellst herum. Niemand. Dein Herz rast. Unerwartet stürzt du über etwas auf dem Boden und erblickst den alten Körper eines Menschen, gehüllt in die ausladende, gold gelbe Schlafkutte eines Kar-Priesters. Seine wirren, aschgrauen Haare auf dem Hinterkopf sind von Blut durchtränkt. Er regt sich nicht.
 "Ist er etwa tot!?"
 Ähnlich den Gewitterblitzen draußen zucken dir Gedanken durch den Kopf: Du hast weder eine Ahnung, wo du dich befindest, wer vor dir liegt, noch ...
 "Wer bin ICH?"
@@ -45,9 +45,13 @@ Außerhalb des Tempels entsteht stimmgewaltiges Durcheinander. Deine Verfolger h
 Du atmest auf und blickst dich in aller Ruhe um. Neben der Kirchenorgel, deren längste Pfeifen bis unter die Kuppel reichen, bemerkst du an einer der Säulen, direkt bei der schwarzen Bodenplatte, einen Hebel aus Messing, verziert mit Dutzenden Totenschädeln.'''
 
 abs33 = '''Die ganze Nacht hast du mit einem Bolzen im Oberschenkel verbracht. Zumindest glaubst du das. Als du die Verletzung begutachten willst, bemerkst du, dass an der Stelle, wo er im Fleisch stecken sollte, nichts ist. Das Eisengeschoss liegt unweit von dir entfernt auf dem Boden.'''
+
 abs35 = '''Du rennst um eine weitere Ecke des Flurs, da siehst du draußen einen Schatten durch das Fenster spähen. Erschreckt kommst du ins Stolpern und stürzt vornüber mit einem dumpfen Schlag gegen die Wand. Benommen rappelst du dich wieder auf. Die Gestalt ist verschwunden! Du setzt deine Flucht fort.
 Kurze Zeit später schlägt hinter dir eine Tür zurück. "Halt! Stehen bleiben!", brüllt eine raue Männerstimme in zackigem Befehlston.
-Zugleich vernimmst du das unheilvolle metallische Singen eines Schwertes, das aus seiner Scheide gezogen wird.'''
+Zugleich vernimmst du das unheilvolle metallische Singen eines Schwertes, das aus seiner Scheide gezogen wird.
+
+Willst du dich umwenden und dich der Gefahr stellen, lies weiter bei 97.
+Willst du lieber Fersengeld geben, lies weiter bei 40.'''
 
 abs38 = '''Obwohl dieser Ort eng und finster ist, fühlst du dich hier sicher. Die Nacht soll kommen! Stoisch legst du dich in eine der freien Nischen und sinnierst über deine Lage. Immer wieder stellst du dir dieselben Fragen.
 "Wer bin ich? Warum bin ich hier? Was habe ich getan?"
@@ -61,9 +65,20 @@ Hinter ihr schält sich ein Schatten aus der Dunkelheit!'''
 abs40 = '''Mit eindringlichen Rufen versucht der Soldat, dich zum Stehenbleiben zu bewegen. Glücklicherweise bist du mit den Lumpen am Leib schneller als dein gerüsteter Verfolger.
 Du hastest den Gang entlang und drängst dich durch eine Gruppe verdutzter Palastbewohner, geweckt vom Tumult. Allerdings trauen sie sich nicht, dich aufzuhalten. Da taucht ein schlaftrunkener Wächter auf und versperrt dir mit einer Lanze den Weg. Du möchtest umkehren, doch der alte Wachmann hat dich mittlerweile eingeholt und schneidet dir schnaufend den Rückweg ab. Du sitzt in der Falle.'''
 
+abs42 = '''Mit einem ansatzlosen, katzenhaften Satz springst du den Sonnen-Soldaten an. Verdutzt von dieser flinken Attacke verliert er das Gleichgewicht. Dabei rudert er mit den Armen, kracht gegen die Wand und rutscht ohnmächtig an ihr hinab. Den Helm ins Gesicht gerutscht, die Waffe entglitten, sitzt er vor dir.
+
+Möchtest du das Schwert samt Scheide aufnehmen, dann schnalle es um und schreibe dir das Schwert (Waffe, Treffer +3) auf.
+Willst du die Öllaterne (Utensil) an dich nehmen, dann notiere sie dir auf dem Abenteuerblatt. Lies weiter bei 77.'''
+
+abs46 = '''Vorsichtig tapst du voran. Unter deinen nackten Sohlen fühlst du den feuchten, schroffen Steinboden eines Kellergewölbes. Die Kühle dieses Ortes lässt dich erschaudern. Doch du hoffst, dass du hier vor deinen Verfolgern, die weiterhin durch den Park streifen, in Sicherheit zu sein.
+Nach und nach ertastest du die Umgebung und dir wird klar, dass du dich inmitten einer Krypta mit mehreren Steinsärgen befindest. Trotz der Angst, die Geister der Toten zu erzürnen, setzt du deine Suche fort und stolperst in einer abgelegenen Ecke über eine schwere Holztruhe mit Eisenbeschlägen. Ein Schloss gibt es nicht.'''
 abs55 = '''Ein ums andere Mal durchdringen heftige Blitze die Finsternis der Nacht, während du die Gänge des Palasts, an zahllosen Türen, Erkern und Durchgängen vorbei, auf nackten Füßen entlang hastest.
 Hektisch schaust du dich um. Das grelle Flackern der Naturgewalten wirft die geisterhaften Schemen von knorrigen Bäumen an die Wand und es scheint, als griffen die sich windenden Äste nach dir. Du blickst durch die trüben Fenster in den Sturm hinaus. Wieder ein Blitz!
 Erschreckt zuckst du zusammen. Inmitten des Kronenlaubs kauert ein Schatten! Fasziniert verharrst du und versuchst durch die Verzerrungen der Scheiben zu erkennen, wen oder was du in der Finsternis gesehen hast.'''
+
+abs56 = '''Im geduckten Sprint hetzt du durch den Regen. Unweit von dir entfernt ragt das steile Dach des Kar-Tempels durch die Baumkronen.
+"Womöglich ein geeignetes Versteck!"
+In Furcht eine Zielscheibe für die Armbrustschützen zu sein, rennst du durch Hecken, hechtest über Parkbänke und rollst dich auf dem aufgeweichten Rasen ab. Der Tempel ist nicht mehr fern! Trotz aller Akrobatik entgleitet dir dabei die Öllaterne, deren Petroleum sich in einem kleinen, heftigen Flächenbrand entzündet. Paralysiert blickst du in die Flammen. Eine Mischung aus Faszination und Angst steigt in dir auf. Erst die Schreie deiner Verfolger lassen dich wieder zur Besinnung kommen. Einige von ihnen sind aus den Fenstern der Parterres in den Park gesprungen. Deine Hoffnung auf Flucht schwindet.'''
 
 abs58 = '''Nach knapp einer Stunde nimmst du nichts Beunruhigendes mehr außerhalb des Tempels wahr.'''
 
@@ -79,13 +94,15 @@ abs71 = '''Mit dem Mute der Verzweiflung springst du kopfüber durch das verschl
 
 abs72 = '''Hastig greifst du nach dem Türriegel aus poliertem Messing. Mit all dem Blut an deinen Klauen rutschst du zunächst etwas ab, doch mit dem zweiten Versuch gelingt es dir, die schwere Holztür zu öffnen. Flackerndes Licht scheint dir entgegen. Geschmeidig, fast katzenartig, drückst du dich durch den schmalen Spalt auf einen langen Gang. Prächtige Rüstungen sowie Porträts in Öl auf der einen und Dutzende Bleiglasfenster auf der anderen Seite flankieren den opulenten Flur.'''
 
-abs77 = '''Kaum hast du dich vom kurzen Kampf gegen den alten Recken erholt, hörst du die schweren Schritte eines weiteren Wachmanns. Aus Furcht, Verstärkung könnte eintreffen, entschließt du dich, aus dem nächsten Erker zu entkommen.
-Geschickt öffnest du ein Fenster zum Innenhof. Die heftige Böe bläst dir die Scheiben scheppernd entgegen und gibt den Blick in die Tiefe frei. Zu hoch für dich! Aber die knorrigen Aste eines in voller Blüte stehenden Raanbaums sind in Sprungweite. Du packst dein Herz in beide Hände und nimmst Anlauf ...'''
-
 abs76 = '''Du drehst dich herum und siehst den fahlen Schein eines Kerzenleuchters. Im letzten Moment versteckst du dich hinter einer großen Bodenvase, als eine Dienerin um die Ecke tritt. Sie schleicht in deine Richtung, verharrt unweit vor dir an der Tür zum kaiserlichen Schlafgemach und presst ihr Ohr gegen das Holz. Zögerlich klopft sie und fragt: "Ist alles in Ordnung, mein Hierarch?"
 Sie zögert. Da lässt ein klirrendes Geräusch sowohl die junge Frau als auch dich zusammenfahren.
 "Mein Hierarch?!"
 Die Dienerin öffnet die Tür und du nutzt die Gelegenheit, ebenfalls über ihre Schulter hinweg ins Halbdunkel des Zimmers zu blicken. Nach wenigen Schritten bemerkt sie die Leiche - ein langer, schriller Schrei, und der Leuchter entgleitet ihrer Hand. Die Kerzen kullern durch den Raum und entzünden den dünnen Stoff des Betthimmels.'''
+
+abs77 = '''Kaum hast du dich vom kurzen Kampf gegen den alten Recken erholt, hörst du die schweren Schritte eines weiteren Wachmanns. Aus Furcht, Verstärkung könnte eintreffen, entschließt du dich, aus dem nächsten Erker zu entkommen.
+Geschickt öffnest du ein Fenster zum Innenhof. Die heftige Böe bläst dir die Scheiben scheppernd entgegen und gibt den Blick in die Tiefe frei. Zu hoch für dich! Aber die knorrigen Aste eines in voller Blüte stehenden Raanbaums sind in Sprungweite. Du packst dein Herz in beide Hände und nimmst Anlauf ...'''
+
+abs88 = '''Nach knapp einer Stunde hast du die Untersuchung der Katakombe abgeschlossen. Erschöpft und zitternd vor Kälte, kauerst du dich in einer freien Nische zusammen. Die Stille der Krypta überträgt sich auf deinen Atem. Mit dem Gefühl von Geborgenheit versuchst du Ruhe zu finden.'''
 
 abs89 = '''Zusammengekauert hinter einer der lebensechten Statuen, wartest du gespannt darauf, dass sich der Tumult auf dem Hof legt. Du zitterst. Mit den wenigen, völlig durchnässten Fetzen am Leib, bist du der Kühle des Tempels schutzlos ausgeliefert.
 Immer wieder huschen Soldaten an den bunten Fenstern vorbei, doch keiner von ihnen macht Anstalten, im Tempel nachzusehen.
@@ -100,10 +117,13 @@ Dir wird wieder bewusst, in welcher Lage du dich befindest.'''
 
 abs92 = '''Orientierungslos rennst du durch den Rundgang um den Hof des Palasts. Deine Hoffnung schwindet, jemals aus diesem gigantischen Gebäude zu entfliehen, doch etwas tief in deinem Inneren treibt dich an.'''
 
-abs97 = '''Vor dir steht ein Hüne von einem Kerl. Über seiner schweren Rüstung glänzt der Goldene Greif, das Wappentier Rhenus. Der gestandene Soldat schaut dich trotz etwas verschlafener Augen finster an. In der Rechten hält er ein Schwert, in der Linken Öllaterne und Schwertscheide samt Gürtel. Er konnte seine komplette Ausrüstung wohl nicht mehr rechtzeitig anlegen. Laterne und Scheide legt er langsam - ohne dich aus den Augen zu lassen - neben sich auf den Boden.'''
+abs97 = '''Vor dir steht ein Hüne von einem Kerl. Über seiner schweren Rüstung glänzt der Goldene Greif, das Wappentier Rhenus. Der gestandene Soldat schaut dich trotz etwas verschlafener Augen finster an. In der Rechten hält er ein Schwert, in der Linken Öllaterne und Schwertscheide samt Gürtel. Er konnte seine komplette Ausrüstung wohl nicht mehr rechtzeitig anlegen. Laterne und Scheide legt er langsam - ohne dich aus den Augen zu lassen - neben sich auf den Boden.
+
+Willst du diese Gelegenheit nutzen, um den Wachmann zu attackieren, lies weiter bei 42.
+Willst du mit einem beherzten Sprung aus dem Fenster entkommen, lies weiter bei 71.
+Willst du weiterhin versuchen über den Flur flüchten, lies weiter bei 40.'''
+
 abs100 = '''Ehe du reagieren kannst, ist der Schatten auf dich zugehuscht und packt deine Kehle mit steinhartem Griff. Unbarmherzig zieht er dich heran.
 Silbern glänzende, pupillenlose Augen durchdringen deinen Geist, deinen Verstand. Du spürst, wie todbringende Kälte in dich strömt. Dein Blut gefriert. Hilflos erstarrst du. Das Letzte, was du wahrnimmst, ist das siegessichere Grinsen auf den versteinerten Gesichtszügen dieses nachtschwarzen Überwesens.
-Hast du in diesem Kapitel den 1. SCHICKSALSPUNKT gefunden? Wenn nicht, kannst du es erneut versuchen und tiefgehender die Geheimnisse der Ahnen erforschen bei deiner Flucht ...
-'''
+Hast du in diesem Kapitel den 1. SCHICKSALSPUNKT gefunden? Wenn nicht, kannst du es erneut versuchen und tiefgehender die Geheimnisse der Ahnen erforschen bei deiner Flucht ...'''
 
-erster_prototyp_pfad = [abs1, abs72, abs76, abs55, abs92, abs35, abs40, abs71, abs90, abs65, abs11, abs60, abs16, abs89, abs58, abs33, abs13, abs38, abs100]
