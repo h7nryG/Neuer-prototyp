@@ -40,10 +40,17 @@ def start_game(prototype_type):
             print("Invalid section number. Please enter a valid section number.")
 
     print("Vielen Dank fürs Spielen!")
+
+
 def select_game_paths():
     print("Willkommen zu unserem Textadventure!")
     print("Für beenden drücke q oder exit")
-    user_choice_path = input("Wähle deinen Pfad: \n1. Individueller Pfad\n2. Standard Pfad\n3. Beenden ('q', 'exit',)\nAuswahl: ")
+    welcome_menu = '''Wähle deinen Pfad: \n
+    1. Individueller Pfad\n
+    2. Standard Pfad\n
+    3. Beenden ('q', 'exit',)
+    \nAuswahl: '''
+    user_choice_path = input(welcome_menu)
     if user_choice_path == "1":
         start_game(prototype)
     elif user_choice_path == "2":
