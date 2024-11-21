@@ -69,10 +69,14 @@ chapter = {
     'abs97': {
         'content': content.abs97,
         'options': {
-            '1': 'abs71'
+            '1': 'abs71',
+            '2': 'abs42',
+            '3': 'abs40'
         },
         'text_options': {
             '1': 'Kapitel 71',
+            '2': 'Kapitel 42',
+            '3': 'Kapitel 40'
         }
     },
     'abs40': {
