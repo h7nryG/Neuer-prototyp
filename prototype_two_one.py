@@ -1,16 +1,9 @@
-import content_chapters as content
-"""
-Ein Dictionary, das die einzelnen Abschnitte des Kapitels enthält.
-Jeder Abschnitt enthält:
-Dieses Dictionary soll den Ablauf von dem Ablauf Pfad für den zweiten Prototyp (Schritt 2) sein
 
-- content: den Text des Abschnitts
-- options: die möglichen nächsten Abschnitte
-- text_options: die Textoptionen für den Benutzer
-"""
+
+
 chapter = {
     'abs1': {
-        'content': content.abs1,
+        'content': content_chapters.abs1,
         'options': {
             '1': 'abs72'
         },
@@ -19,7 +12,7 @@ chapter = {
         }
     },
     'abs72': {
-        'content': content.abs72,
+        'content': content_chapters.abs72,
         'options': {
             '1': 'abs76'
         },
@@ -28,7 +21,7 @@ chapter = {
         }
     },
     'abs76': {
-        'content': content.abs76,
+        'content': content_chapters.abs76,
         'options': {
             '1': 'abs55',
         },
@@ -37,7 +30,7 @@ chapter = {
         }
     },
     'abs55': {
-        'content': content.abs55,
+        'content': content_chapters.abs55,
         'options': {
             '1': 'abs92',
         },
@@ -46,7 +39,7 @@ chapter = {
         }
     },
     'abs92': {
-        'content': content.abs92,
+        'content': content_chapters.abs92,
         'options': {
             '1': 'abs35',
 
@@ -56,7 +49,7 @@ chapter = {
         }
     },
     'abs35': {
-        'content': content.abs35,
+        'content': content_chapters.abs35,
         'options': {
             '1': 'abs40',
             '2': 'abs97'
@@ -67,7 +60,7 @@ chapter = {
         }
     },
     'abs97': {
-        'content': content.abs97,
+        'content': content_chapters.abs97,
         'options': {
             '1': 'abs71',
             '2': 'abs42',
@@ -80,7 +73,7 @@ chapter = {
         }
     },
     'abs40': {
-        'content': content.abs40,
+        'content': content_chapters.abs40,
         'options': {
             '1': 'abs71',
         },
@@ -89,7 +82,7 @@ chapter = {
         }
     },
     'abs42': {
-        'content': content.abs42,
+        'content': content_chapters.abs42,
         'options': {
             '1': 'abs77',
         },
@@ -98,7 +91,7 @@ chapter = {
         }
     },
     'abs71': {
-        'content': content.abs71,
+        'content': content_chapters.abs71,
         'options': {
             '1': 'abs90',
         },
@@ -107,7 +100,7 @@ chapter = {
         }
     },
     'abs77': {
-        'content': content.abs77,
+        'content': content_chapters.abs77,
         'options': {
             '1': 'abs7',
         },
@@ -116,7 +109,7 @@ chapter = {
         }
     },
     'abs7': {
-        'content': content.abs7,
+        'content': content_chapters.abs7,
         'options': {
             '1': 'abs90',
         },
@@ -125,7 +118,7 @@ chapter = {
         }
     },
     'abs90': {
-        'content': content.abs90,
+        'content': content_chapters.abs90,
         'options': {
             '1': 'abs65',
         },
@@ -134,7 +127,7 @@ chapter = {
         }
     },
     'abs65': {
-        'content': content.abs65,
+        'content': content_chapters.abs65,
         'options': {
             '1': 'abs11'
         },
@@ -143,7 +136,7 @@ chapter = {
         }
     },
     'abs11': {
-        'content': content.abs11,
+        'content': content_chapters.abs11,
         'options': {
             '1': 'abs60',
         },
@@ -152,7 +145,7 @@ chapter = {
         }
     },
     'abs60': {
-        'content': content.abs60,
+        'content': content_chapters.abs60,
         'options': {
             '1': 'abs16'
         },
@@ -161,7 +154,7 @@ chapter = {
         }
     },
     'abs16': {
-        'content': content.abs16,
+        'content': content_chapters.abs16,
         'options': {
             '1': 'abs89',
         },
@@ -170,7 +163,7 @@ chapter = {
         }
     },
     'abs89': {
-        'content': content.abs89,
+        'content': content_chapters.abs89,
         'options': {
             '1': 'abs58',
         },
@@ -179,7 +172,7 @@ chapter = {
         }
     },
     'abs58': {
-        'content': content.abs58,
+        'content': content_chapters.abs58,
         'options': {
             '1': 'abs33',
         },
@@ -188,7 +181,7 @@ chapter = {
         }
     },
     'abs33': {
-        'content': content.abs33,
+        'content': content_chapters.abs33,
         'options': {
             '1': 'abs13'
         },
@@ -197,7 +190,7 @@ chapter = {
         }
     },
     'abs13': {
-        'content': content.abs13,
+        'content': content_chapters.abs13,
         'options': {
             '1': 'abs38',
         },
@@ -206,7 +199,7 @@ chapter = {
         }
     },
     'abs38': {
-        'content': content.abs38,
+        'content': content_chapters.abs38,
         'options': {
             '1': 'abs100'
         },
@@ -215,7 +208,7 @@ chapter = {
         }
     },
     'abs100': {
-        'content': content.abs100,
+        'content': content_chapters.abs100,
         'options': {
             '1': 'abs1',
         },
@@ -223,4 +216,4 @@ chapter = {
             '1': 'Beginne von vorne',
         }
     }
-}
+}ß
